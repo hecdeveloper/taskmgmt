@@ -1,8 +1,6 @@
 import React from "react";
 import {
-  FaChevron,
   FaInbox,
-  FaRegCalendarAlt,
   FaRegCalendar,
 } from "react-icons/fa";
 
