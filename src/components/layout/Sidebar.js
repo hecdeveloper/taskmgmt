@@ -25,6 +25,6 @@ export const Sidebar = () => (
       <h2>Proyectos</h2>
     </div>
     <ul className="side_bar_projects">Los Proyectos iran aqui</ul>
-    agregar proyectos
+    Agregar proyectos!
   </div> 
 );
