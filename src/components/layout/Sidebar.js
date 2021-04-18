@@ -1,9 +1,9 @@
 import React from "react";
 import {
-  FaChevron,
   FaInbox,
   FaRegCalendarAlt,
   FaRegCalendar,
+  FaChevronDown,
 } from "react-icons/fa";
 
 export const Sidebar = () => (
@@ -13,9 +13,18 @@ export const Sidebar = () => (
         <span><FaInbox/></span> <span>Inbox</span>
       </li>
       <li>
-        <span><FaRegCalendar/></span> <span>Today</span>
+        <span><FaRegCalendar/></span> <span>Hoy</span>
       </li>
-      <li>Next 7 days</li>
+      <li>
+        <span><FaRegCalendarAlt/></span> <span>Proximos 7 dias </span>
+      </li>
+
     </ul>
-  </div>
+    <div className="sidebar__middle"> 
+      <span><FaChevronDown/></span> 
+      <h2>Proyectos</h2>
+    </div>
+    <ul className="side_bar_projects">Los Proyectos iran aqui</ul>
+    agregar proyectos
+  </div> 
 );
