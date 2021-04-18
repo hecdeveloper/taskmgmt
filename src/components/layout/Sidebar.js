@@ -19,7 +19,7 @@ export const Sidebar = () => (
         <span><FaRegCalendar/></span> <span>Hoy</span>
       </li>
       <li>
-        <span><FaRegCalendarAlt/></span> <span>Proximos 7 dias </span>
+        <span><FaRegCalendarAlt/></span> <span>Proximos 7 dias! </span>
       </li>
 
     </ul>
